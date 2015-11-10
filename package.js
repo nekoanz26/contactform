@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'rgoomar:contactform',
+  name: 'nekoanz:contactform',
   summary: 'Simple drop-in contact form with validation',
-  version: '0.0.9',
-  git: 'https://github.com/rgoomar/contactform.git'
+  version: '0.0.1',
+  git: 'https://github.com/nekoanz26/contactform'
 });
 
 Package.onUse(function(api) {
@@ -13,8 +13,9 @@ Package.onUse(function(api) {
       'jquery',
       'coffeescript',
       'underscore',
-      'less',
+      'less@1.0.0 || 2.5.0',
       'session',
+      'check',
       'chrismbeckett:fontawesome4@4.2.1',
       'mizzao:bootstrap-3@3.2.0_1',
       'rgoomar:bootstrap-validator@0.5.2'
